@@ -13,7 +13,7 @@ namespace Xamarin.EX2FIAP
         {
             InitializeComponent();
 
-            MainPage = new Xamarin.EX2FIAP.MainPage();
+            MainPage = new NavigationPage(new View.AlunoView());
         }
 
         protected override void OnStart()
